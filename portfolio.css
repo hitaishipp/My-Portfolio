@@ -1,0 +1,34 @@
+*{
+    margin:0;            /*this is necessary cuz every browser uses diff spacing.. so to make it consistent in all browser*/
+    padding:0;
+}
+body{
+    background-color:rgb(4, 4, 58);
+    color:white;          /*By default browser uses black color for text..*/
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+}
+.left{
+    display:flex;
+    justify-content:space-around;
+}
+.right{
+    display:flex;
+    justify-content:space-around;
+    margin:0 23px;
+}
+.right ul li{
+    list-style:none;
+    
+}
+
+/* <weight>: Use a value from 100 to 900
+<uniquifier>: Use a unique and descriptive class name 
+the below code is taken from google fonts
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
